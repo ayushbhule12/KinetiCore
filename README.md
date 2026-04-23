@@ -37,33 +37,6 @@ hand-sign/
 
 ---
 
-## Setup — Step by Step
-
-### 1. Create a Python 3.10 Conda environment
-
-```bash
-conda create -n handsign python=3.10
-conda activate handsign
-```
-
-> You must use the handsign environment every time you work on this project.
-> If your terminal shows (base) instead of (handsign), run conda activate handsign first.
-
-### 2. Install dependencies
-
-```bash
-pip install opencv-python mediapipe==0.10.14 numpy pyttsx3
-```
-
-### 3. Run the app
-
-```bash
-python main.py
-```
-
-On first run, the app will automatically download the MediaPipe hand landmark model (~25MB). This only happens once.
-
----
 
 ## Supported Signs
 
